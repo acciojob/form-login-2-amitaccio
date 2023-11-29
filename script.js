@@ -2,8 +2,8 @@
 let formElm = document.getElementById("form");
 formElm.addEventListener("submit" , (event)=>{
 	event.preventDefault();
-	alert(  "First Name:" + formElm.firstName.value);
-	 alert(  "Last Name:" + formElm.lastname.value);
-	 alert(  "Phone Number:" + formElm.phno.value);
-	alert(  "Email ID:" + formElm.email.value);
+	alert(  "First Name:" + formElm.First Name.value);
+	 alert(  "Last Name:" + formElm.Last Name.value);
+	 alert(  "Phone Number:" + formElm.Phone Number.value);
+	alert(  "Email ID:" + formElm.Email ID.value);
 })
